@@ -37,9 +37,9 @@ local tableinsert = table.insert
 getgenv().Aiming = {
     Enabled = true,
 
-    ShowFOV = true,
-    FOV = 13,
-    FOVSides = 25,
+    ShowFOV = false,
+    FOV = 14,
+    FOVSides = 24,
     FOVColour = Color3fromRGB(255, 255, 255),
 
     VisibleCheck = true,
@@ -60,7 +60,7 @@ getgenv().Aiming = {
         },
         Players = {
             LocalPlayer,
-            91318356
+            1406798642
         }
     }
 }
